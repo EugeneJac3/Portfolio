@@ -21,4 +21,10 @@ p {
   color:white;
     position: relative;
     text-align: center;
+    font-size: large;
+}
+
+.container{
+  margin: 35vh;
+  font-family: 'Roboto Mono', monospace;
 }
