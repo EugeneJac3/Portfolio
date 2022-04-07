@@ -11,3 +11,33 @@ body {
 a {
     font-family: 'Roboto Mono', monospace;
   }
+
+  .container{
+      padding-top: 10vh;
+  }
+
+  header{
+    text-align: center;
+    color:white;
+    position: relative;
+    font-size:xx-large ;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bolder;
+    padding-top:20px;
+    background-color:midnightblue;
+    opacity: 0.6;
+  }
+
+  P {
+    background-color: midnightblue;
+    color: white;
+    opacity: 0.6;
+    font-size:xx-large;
+    padding:30px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .navbar {
+      opacity:0.9;
+
+  }
