@@ -16,6 +16,13 @@ h1 {
     font-size:xx-large
 }
 
+.skills{
+  color:white;
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
 
 
 p {
@@ -23,6 +30,12 @@ p {
     position: relative;
     text-align: center;
     font-size: x-large;
+}
+
+.skillsLogo {
+  position: relative;
+    text-align: center;
+    
 }
 
 .container{
