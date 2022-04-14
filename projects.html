@@ -4,14 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="projects.css" rel="stylesheet">
-    <title>Document</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Projects</title>
 </head>
 <body>
-    <h1>Projects!</h1>
 
-    <div class="container">
+    <!-- NavBar  -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/EugeneJac3" target="_blank">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/eugene-jackson-87b24090/" target="_blank">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About Me</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+      <!-- NavBar finish -->
+
+    <h1>My Projects</h1>
+    <div class='container'>
+        <div class="row">
+         <div class="col-lg-6">
+             <div >
+            <img src="images/ShredLightly.png" class="img-fluid rounded" alt="Responsive image">
+            </div>
+            <div class='imgLINK'>
+                <a class="btn btn-dark"  href="https://shred-lightly-eugene.netlify.app/" target="_blank">
+                    Website
+                </a>
+                <a class="btn btn-dark" href="https://github.com/EugeneJac3/front-end-project">
+                 Source Code
+                </a>
+                
+            </div>
+
+          </div>
+
+         <div class="col-lg-6">
+
+                <div class='shredDetails rounded' >
+                    <div class='divHeader'>
+                        ShredLightly
+                    </div>
+                    <div class="description">
+                        <p>ShredLightly is a frontend only website created by three developers to help users find bike trails in a city of their choice. The user inputs a city and bike trails within a 50 mile radius populate. My key contributions to this website were:  
+                        </p>
+                        <ul>
+                            <li>Javascript DOM maniulations</li>
+                            <li>API fetches to RapidAPI and the Google maps API</li>
+                            <li>Assiting with CSS styling</li>
+                        </ul>
+                    </div>
+
+
+                    
+                </div>
+         </div>   
+
+        </div>
+        <div class="row">
+         <div class="col-lg-6">
+
+            <div class='artDetails rounded'>
+                <div class='divHeader'>
+                    Art Auction
+                </div>
+                <div class="description">
+                <p>
+                The art auction website was created by three developers. This project was backend focused with emphasis on CRUD operations. This website allows a user to register and log in with an account. From there you are able to browse art pieces up for auction and place a bid. My key contributions to this app were:  
+                </p>
+                <ul>
+                    <li>Setting up the login functionality with Bcrypt and JSONwebtokens</li>
+                    <li>Moving throughout the app as a logged in user and secured Admin routes</li>
+                    <li>The submit bid function that saves users bids to the database</li>
+                </ul>
+                </div>
+            </div>
+
+          </div>
+
+         <div class="col-lg-6">
+            <img src="images/MeowPage.png" class="img-fluid rounded" alt="Responsive image">
+            <div class='imgLINK'>
+                <a class="btn btn-dark"  href="https://artauctionapp.herokuapp.com/" target="_blank">
+                    Website
+                </a>
+                <a class="btn btn-dark" href="https://github.com/EugeneJac3/artAuction">
+                 Source Code
+                </a>
+            </div>
+         </div>   
+
+        </div>
+
+
+
+
+    </div>
+
+    
+
+   
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</html>
+
+
+<!-- <div class="container">
         <div class="row">
             <div class="col-4">
                <div class="card">
@@ -49,9 +174,4 @@
                 </div>
             </div>
         </div>
-    </div>
-
-   
-    
-</body>
-</html>
+    </div> -->

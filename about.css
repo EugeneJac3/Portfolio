@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/stars.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    
+}
+a {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .container{
+      padding-top: 20vh;
+  }
+
+  header{
+    text-align: center;
+    color:white;
+    position: relative;
+    font-size:xx-large ;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bolder;
+    padding-top:20px;
+    background-color: #202020;
+    opacity: 0.9;
+  }
+
+  P {
+    background-color: #282828;
+    color: white;
+    opacity: 0.9;
+    font-size:x-large;
+    padding:30px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .navbar {
+      opacity:0.9;
+
+  }

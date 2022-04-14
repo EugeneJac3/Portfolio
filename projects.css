@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/images/iceMountain.jpg);
+    background-image: url(/images/mountainLake.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -9,10 +9,52 @@ body {
     
 }
 
+a {
+    font-family: 'Roboto Mono', monospace;
+  }
+
 .container{
-  
+    font-family: 'Roboto Mono', monospace;
+    padding: 30px;
 }
 
-.card {
-
+h1 {
+    text-align: center;
+    color:white;
+    position: relative;
+    font-size:xx-large ;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bolder;
+    padding-top:20px;
 }
+
+
+
+.imgLINK {
+    text-align: center;
+}
+
+.shredDetails{
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    font-size:large;
+}
+
+.artDetails{
+    background-color: black;
+    color:white;
+    opacity: 0.6;
+    font-size:large;
+}
+
+.divHeader{
+    font-size:xx-large;
+    text-align: center;
+}
+
+.row{
+    padding-bottom: 50px;
+}
+
+
