@@ -1,18 +1,31 @@
 
 body {
-  background-color:black !important;;
-  opacity: 0.6;
+  /* background-color:black !important; */
+  background-color: white !important;;
+  /* opacity: 0.6; */
 }
 
 h1 {
     text-align: center;
-    color:white;
+    color:black;
     position: relative;
     font-size:xx-large;
 }
 
+header{
+  text-align: center;
+  color:black;
+  position: relative;
+  font-size:xx-large ;
+  font-family: 'Roboto Mono', monospace;
+  font-weight:bold;
+  padding-top:20px;
+  
+  opacity: 0.9;
+}
+
 .skills{
-  color:white;
+  color:black;
     position: relative;
     text-align: center;
     font-size: xx-large;
@@ -22,7 +35,7 @@ h1 {
 
 
 p {
-  color:white;
+  color:black;
     position: relative;
     text-align: center;
     font-size: x-large;
@@ -35,7 +48,7 @@ p {
 }
 
 .container{
-  margin: 25vh;
+  margin: 10vh;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -44,14 +57,16 @@ a {
 }
 
 
-.navbar .navbar-nav .nav-link {
+/* .navbar .navbar-nav .nav-link {
   color: #000000;
   font-size: 1.1em;
-}
+} */
 .navbar .navbar-nav .nav-item {
   position: relative;
 }
-.navbar .navbar-nav .nav-item::after {
+
+
+/* .navbar .navbar-nav .nav-item::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -62,10 +77,11 @@ a {
   content: "";
   height: 4px;
   transition: all 0.5s;
-}
+} */
 
 .navbar .navbar-nav .nav-item:hover::after {
   width: 100%;
   height: 1px;
 }
+
 

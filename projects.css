@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     background-image: url(/images/mountainLake.jpg);
@@ -6,8 +6,7 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position: center;
-    
-}
+} */
 
 a {
     font-family: 'Roboto Mono', monospace;
@@ -35,16 +34,16 @@ h1 {
 }
 
 .shredDetails{
-    background-color: black;
-    color: white;
-    opacity: 0.6;
+    background-color:white;
+    color:black;
+    /* opacity: 0.6; */
     font-size:large;
 }
 
 .artDetails{
-    background-color: black;
-    color:white;
-    opacity: 0.6;
+    background-color: white;
+    color: black;
+    /* opacity: 0.6; */
     font-size:large;
 }
 
@@ -56,5 +55,6 @@ h1 {
 .row{
     padding-bottom: 50px;
 }
+
 
 
