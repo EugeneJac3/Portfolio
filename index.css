@@ -20,7 +20,7 @@ header{
   font-family: 'Roboto Mono', monospace;
   font-weight:bold;
   padding-top:20px;
-  
+  padding-bottom: 20px;
   opacity: 0.9;
 }
 
@@ -62,7 +62,8 @@ a {
   font-size: 1.1em;
 } */
 .navbar .navbar-nav .nav-item {
-  position: relative;
+ 
+  
 }
 
 
